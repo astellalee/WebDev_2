@@ -1,0 +1,46 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+body>div {
+  background-color: #000000;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+body>div>div {
+  width: 50px;
+  height: 650px;
+  float: left;
+}
+
+br{
+  clear:both;
+}
+
+body>div>div:nth-child(1) {
+  background-image: linear-gradient(#000000, #00000D);
+}
+body>div>div:nth-child(2) {
+  background-image: linear-gradient(#020110, #191621);
+}
+body>div>div:nth-child(3) {
+  background-image: linear-gradient(#020110, #20212C);
+}
+body>div>div:nth-child(4) {
+  background-image: linear-gradient(#020110, #1C1C2F, #3A3A52);
+}
+body>div>div:nth-child(5) {
+  background-image: linear-gradient(#20212C, #323348, #515175);
+}
+body>div>div:nth-child(6) {
+  background-image: linear-gradient(#41415D, #646598 500px, #8976AB);
+}
+body>div>div:nth-child(7) {
+  background-image: linear-gradient(#4B4A6B, #626392, #CC82A0);
+}
+body>div>div:nth-child(8) {
+  background-image: linear-gradient(#7679BF 400px, #E8AFD2);
+}

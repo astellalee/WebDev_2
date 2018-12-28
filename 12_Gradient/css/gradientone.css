@@ -1,0 +1,39 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+body>div {
+  width: 880px;
+  margin: 0 auto;
+}
+
+div>div{
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  float: left;
+}
+
+br{
+  clear:both;
+}
+
+body>div>div:nth-child(1){
+  border-radius: 120px 15px 120px 35px;
+  background-image: radial-gradient(circle at 40px 40px, #C1FF6B, #006400);
+}
+body>div>div:nth-child(2){
+  border-radius: 100px;
+  background-image: radial-gradient(circle farthest-corner at 60px 40px, #FFE146 20px, #CD1039);
+}
+body>div>div:nth-child(3){
+  border-radius: 100px;
+  background-image: radial-gradient(circle farthest-corner at 60px 40px, #FFE146, #FF8200, #D2691E 180px);
+}
+
+body>div>div:nth-child(4){
+  border-radius: 20px 130px 40px 110px;
+  background-image: radial-gradient(circle at 20px 20px, #FFE146, #FF8200);
+}

@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@font-face {
+  font-family: 'BMDOHYEON';
+  src: url('../font/BMDOHYEON.ttf') format('truetype');
+}
+
+h1 {
+  font-family: 'BMDOHYEON';
+  margin: 50px;
+  text-shadow: -10px -20px 10px #ff0000, 5px -10px 0 #0000ff, -20px 5px 20px #FFF600;
+}

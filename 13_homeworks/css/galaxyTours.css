@@ -1,0 +1,87 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+
+body>div {
+  margin: 0 auto;
+  width: 1280px;
+  height: 650px;
+  position: relative;
+  background-image: url("../img/galaxy.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+body>div>div{
+  width: 600px;
+  height: 350px;
+  border: 1px solid #ffffff;
+  box-shadow:5px 5px 15px 5px rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 125px;
+  left: 60px;
+}
+
+body>div>div>div{
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+body>div>div>div:nth-child(1){
+  margin-top: 25px;
+  color: #ffffff;
+  font-size: 68px;
+  font-family: 'Staatliches', cursive;
+  line-height: 68px;
+  text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+
+}
+
+body>div>div>div:nth-child(2){
+  margin-top: 10px;
+  margin-right: 25px;
+  color: #ffffff;
+  font-size: 18px;
+  font-family: 'PT Sans', sans-serif;
+  text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+body>div>div>a{
+  margin-top: 50px;
+  width: 150px;
+  height: 50px;
+  float: left;
+  background-color: #000000;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+body>div>div>a:nth-child(3){
+  margin-left: 25px;
+}
+
+body>div>div>a:nth-child(4){
+  margin-left: 15px;
+  display: inline-block;
+}
+
+body>div>div>a>div{
+  color: #ffffff;
+  line-height: 50px;
+  text-align: center;
+}
+
+body>div>div>a:link {
+  text-decoration: none;
+}
+
+body>div>div>a:hover {
+  background-color: #ffffff;
+}
+
+body>div>div>a:hover>div {
+  color: #000000;
+}

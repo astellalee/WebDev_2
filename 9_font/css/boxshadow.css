@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+div{
+  width: 100px;
+  height: 100px;
+  background-color: #000000;
+  margin: 50px;
+  -webkit-box-shadow: inset 20px 10px 10px 0px #ff0000,
+  inset -10px 20px 0 10px #0000ff,
+  -10px -10px 0 40px #ffff00;
+  box-shadow: inset 20px 10px 10px 0px #ff0000,
+  inset -10px 20px 0 10px #0000ff,
+  -10px -10px 0 40px #ffff00;
+}
