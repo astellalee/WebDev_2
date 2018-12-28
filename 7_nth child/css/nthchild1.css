@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+div > div {
+  border-bottom: 1px solid #000000;
+}
+
+p:nth-child(2){
+  background-color: #ffcc00;
+}
+
+p:nth-child(4) {
+  margin-left: 50px;
+}
+
+p:nth-of-type(2){
+  color: #ff0000;
+}
+
+p:nth-last-child(4) {
+  font-size: 30px;
+}
+
+p:nth-last-of-type(3) {
+  font-style: italic;
+}
+
+div:first-child >div:first-child >p:nth-of-type(2) {
+  font-weight: bold;
+}

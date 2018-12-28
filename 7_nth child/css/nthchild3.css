@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding:0;
+  list-style: none;
+}
+
+p:first-child {
+  background-color: #FFCC00;
+}
+
+p:first-of-type{
+  color: #FF0000;
+}
+
+p:last-child {
+  font-size: 40px;
+}
+
+p:last-of-type {
+  font-style: italic;
+}
+
+p:only-child {
+  padding-left: 50px;
+}
+
+p:only-of-type {
+  margin-left: 50px;
+}
+
+div:empty {
+  width: 100px;
+  height: 100px;
+  background-color: #ff0000;
+}

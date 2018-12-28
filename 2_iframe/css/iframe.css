@@ -1,0 +1,21 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+} 
+
+iframe:first-child {
+  width: 500px;
+  height: 400px
+}
+
+iframe.frame2 {
+  width: 400px;
+  height: 500px;
+}
+
+iframe:last-child {
+  width: 800px;
+  height: 500px;
+  border: none;
+}

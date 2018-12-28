@@ -1,0 +1,22 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+div {
+  width: 300px;
+  height: 300px;
+  margin: 5px;
+}
+div:first-child {
+  background-color: black;
+}
+
+div.color {
+  background-color: #000000;
+}
+
+div:last-child {
+  background-color: rgba(0,0,0,0.2);
+}

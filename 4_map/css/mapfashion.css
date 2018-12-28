@@ -1,0 +1,11 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+div.fashion {
+  width: 900px;
+  height: 1316px;
+  margin: 0 auto;
+}

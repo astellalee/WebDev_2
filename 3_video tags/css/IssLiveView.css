@@ -1,0 +1,19 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+div.wrapper {
+  background-color: rgba(0,0,0,1)
+}
+
+div.inner {
+  margin: 0 auto;
+  position: relative;
+}
+
+video.youtube {
+  width: 1200px;
+  position: absolute;
+}

@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding:0;
+  list-style: none;
+}
+
+:root {
+  background-color: #FFCC00;
+}
+
+body>div:nth-child(2), body>div:nth-child(4), body>div:nth-child(5){
+  width: 200px;
+  height: 200px;
+  background-color: #FF0000;
+}
+
+body>div:nth-child(5){
+  width: 30px;
+  height:30px;
+  background-color: #FF7200;
+}
+
+body>div:nth-child(5)>div:nth-last-child(2){
+  padding: 40px;
+}
+
+body>div:nth-child(4)>p:nth-of-type(2) {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+body>div:nth-child(4)>div:nth-last-of-type(1) {
+  width: 40px;
+  height:40px;
+  background-color: #000fff;
+}

@@ -1,0 +1,93 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+div.wrapper {
+  background-color: black;
+}
+
+div.youtube {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+iframe.youtube {
+  width: 1200px;
+  height: 650px;
+  border: none;
+}
+
+div.menu {
+  padding-left: 22px;
+  position: absolute;
+  top: 70px;
+}
+
+div.youtube>div.menu>ul>li{
+  width: 70px;
+  height: 50px;
+  border-top: 1px white solid;
+  text-align: center;
+}
+
+div.menu a {
+  color: white;
+  text-decoration: none;
+  line-height: 50px;
+}
+div.menu>ul:last-child {
+  border-bottom: 1px white solid;
+}
+
+div.menu a:hover {
+  color: skyblue;
+}
+
+div.box {
+  width: 450px;
+  height: 650px;
+  background-color: rgba(0,0,0,0.3);
+  position: absolute;
+  right: 0;
+  top: 0;
+
+}
+
+div.box>div.text {
+  text-align: left;
+  padding: 70px 30px;
+  color: white;
+}
+
+div.title {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+div.bodytext {
+  font-size: 15px;
+}
+
+div.buttonbox {
+  width: 390px;
+  height: 40px;
+  text-align: center;
+  background-color: rgba(0,0,0,0.8);
+  margin-top: 30px;
+  line-height: 40px;
+}
+
+div.buttonbox:hover {
+  background-color: rgba(255,255,255,0.3);
+}
+
+div.button>a {
+  color: white;
+  text-decoration: none;
+}
+
+div.button> a:hover {
+  color: skyblue;
+}

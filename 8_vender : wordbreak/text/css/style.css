@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/*p요소를 선택해 가로값 400px로 입력해주세요.*/
+p {
+  width: 400px;
+}
+
+/*첫번째 p요소를 선택해 배경색을 노란색으로, 텍스트를 글자 단위로 잘라서 줄바꿈하게 해주세요.*/
+p:nth-child(1){
+  background-color: #ffcc00;
+  word-break: break-all;
+}
+
+/*두번째 p요소를 선택해 배경색을 분홍색으로, 텍스트를 단어 단위로 잘라서 줄바꿈하게 해주세요.*/
+p:nth-child(2){
+  background-color: #FF8CF9;
+  word-break: keep-all;
+}
+
+/*세번째 p요소를 선택해 배경색을 주황색으로, 텍스트를 줄바꿈하지 않도록 해주세요.*/
+p:nth-child(3){
+  background-color:#FF9C1C;
+  white-space: nowrap;
+}
+
+/*네번째 p요소를 선택해 배경색을 하늘색으로, 텍스트를 줄바꿈 하지 않으면서 공백이 그대로 나타나게 해주세요.*/
+p:nth-child(4){
+  background-color: #1CE0FF;
+  white-space: pre;
+}
+
+/*다섯번째 p요소를 선택해 배경색을 파란색으로, 텍스트를 줄바꿈 하면서 공백이 그대로 나타나게 해주세요.*/
+p:nth-child(5){
+  background-color: #1C6BFF;
+  white-space: pre-wrap;
+}
+
+/*여섯번째 p요소를 선택해 배경색을 회색으로, 새로운 줄로 넘어갈때 텍스트의 공백을 그대로 표시되게 해주세요.*/
+p:nth-child(6){
+  background-color: #AA9B9B;
+  white-space: pre-line;
+}

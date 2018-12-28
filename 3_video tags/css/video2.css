@@ -1,0 +1,15 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+video.one {
+  width: 500px;
+  height: auto;
+}
+
+video.three {
+  width: 400px;
+  height: auto;
+}
