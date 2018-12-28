@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>semantic</title>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+<!--전체를 감싸주는 그룹요소-->
+<div id="wrapper">
+    <!--헤더의 시작-->
+    <header id="header">
+        <!--헤더 가이드 박스의 시작-->
+        <div class="inner">
+            <!--로고의 시작-->
+            <h1 class="logo"><a href="#">LOGO</a></h1>
+            <!--사용자 정보메뉴(리스트 그룹)의 시작-->
+            <ul class="infoLink">
+                <li><a href="#">info-1</a></li>
+                <li><a href="#">info-2</a></li>
+                <li><a href="#">info-3</a></li>
+                <li><a href="#">info-4</a></li>
+            </ul>
+            <!--메인 메뉴의 시작-->
+            <nav class="nav">
+                <!--메인 메뉴(리스트 그룹)의 시작-->
+                <ul class="mainMenu">
+                    <li><a href="#">menu-1</a></li>
+                    <li><a href="#">menu-2</a></li>
+                    <li><a href="#">menu-3</a></li>
+                    <li><a href="#">menu-4</a></li>
+                    <li><a href="#">menu-5</a></li>
+                </ul>
+            </nav>
+            <br class="clear">
+        </div>
+    </header>
+    <!--컨텐츠에 관한 요소 전체를 포함하는 박스의 시작-->
+    <section id="contentsArea">
+        <!--컨텐츠 섹션을 정의하는 요소의 시작-->
+        <section>
+            <h2>section</h2>
+            <!--독립된 컨텐츠를 정의하는 요소의 시작-->
+            <article><h3>article</h3></article>
+            <article><h3>article</h3></article>
+            <br class="clear">
+        </section>
+		<section>
+            <h2>section</h2>
+            <!--독립된 컨텐츠를 정의하는 요소의 시작-->
+            <article><h3>article</h3></article>
+            <article><h3>article</h3></article>
+            <br class="clear">
+        </section>
+    </div>
+    <!--푸터의 시작-->
+    <footer id="footer">
+        <!--푸터 가이드 박스의 시작-->
+        <div class="inner">
+            <!--푸터 로고의 시작-->
+            <h1 class="logo">LOGO</h1>
+            <!--푸터 메뉴의 시작-->
+            <div class="guide">
+                <!--푸터 메뉴그룹(리스트 그룹)의 시작-->
+                <ul>
+                    <li><a href="#">guide-1</a></li>
+                    <li><a href="#">guide-2</a></li>
+                    <li><a href="#">guide-3</a></li>
+                    <li><a href="#">guide-4</a></li>
+                </ul>
+                <!--회사 정보에 관한 요소의 시작-->
+                <address>
+                    <!--주소, 전화 등 정보를 각각 인라인그룹요소로 묶어줄것-->
+                    <span>주소</span>
+                    <span>전화</span>
+                    <span>이메일</span>
+                    <span>팩스</span>
+                    <span>대표명</span>
+                </address>
+                <!--내용입력 요소로 저작권정보 입력-->
+                <p class="copyright">Copyrighⓒ 2018. yujin_oh. All right reserved.</p>
+            </div>
+            <br class="clear">
+        </div>
+    </footer>
+</div>
+</body>
+</html>

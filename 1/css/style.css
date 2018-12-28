@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.clear {
+    clear: both;
+}
+
+#header {
+	background-color: black;
+}
+ 
+.inner, section > section {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+#header .inner {
+	padding: 20px 0;
+	background-color: skyblue;
+}
+ 
+#header .logo {
+    font-size: 60px;
+    float: left;
+}
+ 
+.infoLink,
+.nav {
+    text-align: right;
+}
+ 
+.infoLink li,
+.nav li {
+    display: inline-block;
+    padding: 5px;
+    font-size: 20px;
+}
+ 
+#contentsArea {
+    padding: 30px 0;
+    background-color: grey;
+}
+ 
+section > section {
+    background-color: lightgray;
+    margin: 30px auto;
+    padding: 20px 0;
+}
+
+section > h2 {
+    text-align: center;
+    line-height: 100px;
+    font-size: 40px;
+		font-weight: normal;
+}
+ 
+article {
+    width: 680px;
+    margin: 0 10px;
+    float: left;
+    background-color: white;
+}
+
+article > h3 {
+    text-align: center;
+    line-height: 300px;
+    font-size: 40px;
+	font-weight: normal;
+}
+ 
+#footer {
+    background-color: black;
+}
+ 
+#footer .inner {
+    padding: 30px 0;
+    background-color: navy;
+}
+ 
+#footer .logo {
+    color: white;
+    font-size: 50px;
+    float: left;
+}
+ 
+.guide {
+    float: left;
+    margin-left: 50px;
+}
+ 
+.guide li {
+    display: inline-block;
+    padding: 5px;
+}
+
+.guide a {
+    color: white;
+}
+ 
+address span {
+    color: white;
+    padding-right: 10px
+}
+
+.copyright {
+    color: gray;
+}
